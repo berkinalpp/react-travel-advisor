@@ -44,7 +44,7 @@ const PlaceDetails = ({place,selected,refProp}) => {
                 ))}
 
                 {place?.cuisine?.map(({name},key) => (
-                    <Chip key={name} key={key} size="small" label={name} className={classes.chip} />
+                    <Chip key={name} size="small" label={name} className={classes.chip} />
                 ))}
 
                     {place?.address && (
